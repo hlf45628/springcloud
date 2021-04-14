@@ -1,2 +1,2 @@
-# spring-cloud-training
+# spring-cloud-learing
 spring-cloud study demo
