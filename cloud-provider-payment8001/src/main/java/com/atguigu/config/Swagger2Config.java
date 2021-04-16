@@ -16,7 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class Swagger2Config {
 
     @Bean
-    public Docket createRestApi() {
+    public Docket createRestApi() {     
         //http://ip地址:端口/项目名/swagger-ui.html#/
         ApiInfo apiInfo = new ApiInfoBuilder()
                 .title("项目名称") //网站标题

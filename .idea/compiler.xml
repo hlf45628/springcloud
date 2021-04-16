@@ -8,10 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api-common" />
-        <module name="cloud-consumer-order80" />
         <module name="cloud-eureka-server7001" />
+        <module name="cloud-gateway-gateway9527" />
         <module name="cloud-provider-payment8001" />
+        <module name="cloud-hystrix-dashboard9001" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloud-consumer-feign-order80" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

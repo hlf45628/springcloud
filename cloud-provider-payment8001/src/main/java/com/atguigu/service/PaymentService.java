@@ -8,4 +8,6 @@ public interface PaymentService {
     public int createPayment(PaymentCreateReqVo req);
 
     public Payment queryPaymentById(int id);
+
+    public String paymentInfo_timeout() ;
 }
